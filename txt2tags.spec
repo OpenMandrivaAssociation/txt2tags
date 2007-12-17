@@ -14,7 +14,6 @@ Source: http://txt2tags.sourceforge.net/src/%{name}-%{version}.tar.bz2
 Requires: python
 BuildArch: noarch
 BuildRequires: gettext
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 Txt2tags is a generic text converter. From a simple text file with minimal
