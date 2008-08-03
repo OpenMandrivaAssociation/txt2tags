@@ -1,6 +1,6 @@
 %define name txt2tags
 %define version 2.3
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name: %{name}
 Version: %{version}
