@@ -1,6 +1,6 @@
 %define name txt2tags
-%define version 2.3
-%define release %mkrel 4
+%define version 2.5
+%define release %mkrel 1
 
 Name: %{name}
 Version: %{version}
@@ -68,10 +68,9 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,0755)
-%doc ChangeLog README README-FIRST COPYING TEAM TODO
-%doc %dir doc %dir extras %dir samples 
+%doc ChangeLog README COPYING TODO
+%doc %dir doc %dir extras %dir samples
 %{_bindir}/%{name}
 %{_mandir}/man1/txt2tags.1*
-%{_mandir}/*/man1/txt2tags.1*
 %{_datadir}/locale/*/LC_MESSAGES/txt2tags.mo
 
