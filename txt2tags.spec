@@ -74,3 +74,36 @@ rm -rf %{buildroot}
 %{_mandir}/man1/txt2tags.1*
 %{_datadir}/locale/*/LC_MESSAGES/txt2tags.mo
 
+
+
+%changelog
+* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.5-2mdv2010.0
++ Revision: 445602
+- rebuild
+
+* Fri Jan 23 2009 Jérôme Soyer <saispo@mandriva.org> 2.5-1mdv2009.1
++ Revision: 332916
+- New upstream release
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.3-4mdv2009.0
++ Revision: 261742
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.3-3mdv2009.0
++ Revision: 255034
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 2.3-1mdv2008.1
++ Revision: 128686
+- kill re-definition of %%buildroot on Pixel's request
+- import txt2tags
+
+
+* Thu Jul 15 2005 Andreas Hasenack <andreas@mandriva.com> 2.3-1mdk
+- packaged by Mauricio Teixeira <mteixeira@webset.net>
+- Mandriva package created using spec file from Conectiva Contrib
+- Group: Text tools
+- BuildRequires: gettext
