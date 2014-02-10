@@ -1,20 +1,16 @@
-%define name txt2tags
-%define version 2.5
-%define release %mkrel 2
 
-Name: %{name}
-Version: %{version}
-Release: %{release}
+Name: txt2tags
+Version: 2.6
+Release: 1
 Summary: Converts text files to HTML, XHTML, sgml, LaTeX, man, etc
 Group: Text tools
 License: GPL
 URL: http://txt2tags.sourceforge.net
 # original source file is .tgz. Here it's bzipped as per Mandriva policy
-Source: http://txt2tags.sourceforge.net/src/%{name}-%{version}.tar.bz2
+Source: http://txt2tags.sourceforge.net/src/%{name}-%{version}.tgz
 Requires: python
 BuildArch: noarch
 BuildRequires: gettext
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 Txt2tags is a generic text converter. From a simple text file with minimal
@@ -64,7 +60,6 @@ for lang in %{LANGS}; do
 done
 
 %clean
-rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,0755)
@@ -107,3 +102,4 @@ rm -rf %{buildroot}
 - Mandriva package created using spec file from Conectiva Contrib
 - Group: Text tools
 - BuildRequires: gettext
+

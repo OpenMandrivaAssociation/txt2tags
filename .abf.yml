@@ -1,2 +1,4 @@
+removed_sources:
+  txt2tags-2.5.tar.bz2: 56b9cb723f683bef22d0c6bfa42e640bd93b8860
 sources:
-  "txt2tags-2.5.tar.bz2": 56b9cb723f683bef22d0c6bfa42e640bd93b8860
+  txt2tags-2.6.tgz: 91bc47e02b9ec7f2fa39c8f7ff5c260164a74718
