@@ -31,6 +31,8 @@ done
 
 %install
 chmod 644 extras/*
+chmod a+x extras/markitup
+chmod a+x extras/pmwiki
 
 # executables
 install -d %{buildroot}%{_bindir}
