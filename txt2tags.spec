@@ -1,7 +1,7 @@
 
 Name: txt2tags
 Version: 2.6
-Release: 1
+Release: 2
 Summary: Converts text files to HTML, XHTML, sgml, LaTeX, man, etc
 Group: Text tools
 License: GPL
