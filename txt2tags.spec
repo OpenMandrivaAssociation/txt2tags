@@ -5,7 +5,7 @@ Release: 2
 Summary: Converts text files to HTML, XHTML, sgml, LaTeX, man, etc
 Group: Text tools
 License: GPL
-URL: http://txt2tags.sourceforge.net
+URL: https://txt2tags.sourceforge.net
 # original source file is .tgz. Here it's bzipped as per Mandriva policy
 Source: http://txt2tags.sourceforge.net/src/%{name}-%{version}.tgz
 Requires: python
